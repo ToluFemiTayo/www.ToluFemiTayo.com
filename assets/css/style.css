@@ -9,11 +9,8 @@
 }
 .form__fill {
   max-width: 300px;
+  padding: 20px; 
   margin: 0 auto;
-/* display: flex;  */
-/* flex-direction: column;  */
-/* justify-content: center;  */
-padding: 20px; 
 }
 .container {
   padding: 60px;
@@ -40,14 +37,6 @@ padding: 20px;
   color:  rgb(174, 184, 184);
   text-decoration: none;
 }
-/* .bg__img {
-  width: 100%;
-  height: 705px ;
-}
-.bg__img img {
-  width: 100%;
-  height: 100%;
-} */
 .sidebar {
   width: 90px;
   position: fixed;
@@ -77,11 +66,11 @@ padding: 20px;
 /* index.html */
 .rightside__card {
   display: inline;
-  height: 30px;
-  width: 30px;
+  width: 60px;
+  height: 60px;
   background-color: rgb(217, 226, 226);
   border: 2px solid #492828;
-  border-radius: 45%;
+  border-radius: 50%;
   cursor: pointer;
   padding: 2px;
   margin: 0 5px;
@@ -91,34 +80,46 @@ padding: 20px;
 }
 /* leftside bar */
 .leftside__card {
-  height: 30px;
-  width: 30px;
+  width: 35px;
+  height: 35px;
   border: 2px solid #492828;
   border-radius: 5px;
   cursor: pointer;
-  margin: 0 0 5px;
+  margin: 10px;
 }
 .mediaicons {
   display: inline;
   list-style-type: none;
-  padding: 20px 20px 20px 10px;
+  padding: 20px;
   margin: 0;
 }
 .twt {
+  width: 20px;
+  height: 10px;
   color: #60aade;
   padding: 8px 5px 5px;
+  margin: 2px;
 }
 .fbk {
+  width: 20px;
+  height: 10px;
   color: #506bb1;
   padding: 8px 5px 5px;
+  margin: 2px;
 }
-.ldn {
+/* .ldn {
+  width: 20px;
+  height: 10px;
   color: #1b93ce;
   padding: 8px 5px 5px;
-}
+  margin: 2px;
+} */
 .gle {
+  width: 25px;
+  height: 10px;
   color: #e85441;
   padding: 8px 5px 5px;
+  margin: 2px;
 }
 /* social icons */
 .container figure {
@@ -131,14 +132,6 @@ padding: 20px;
 .card__figure img {
   width: 100%;
   height: 100%;
-}
-.form__fill {
-  max-width: 300px;
-  margin: 0 auto;
-/* display: flex;  */
-/* flex-direction: column;  */
-/* justify-content: center;  */
-  padding: 20px; 
 }
 .copyright {
   color: rgb(153, 158, 158);
@@ -159,7 +152,6 @@ padding: 20px;
 
 /* contact.html */
 .contact__one {
-  /* width: 200px; */
   list-style-type: none;
   letter-spacing: 2px;
   padding: 0 30px 60px;
