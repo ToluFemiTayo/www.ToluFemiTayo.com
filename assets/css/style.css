@@ -17,7 +17,11 @@ main {
 .p__left {
   padding: 0 0 0 60px;
 }
+.modal__login {
+  max-width: 320px;
+}
 .form__fill {
+  background: #eef3c9;
   max-width: 300px;
   padding: 20px; 
   margin: 0 auto;
@@ -92,7 +96,7 @@ main {
   padding: 2px;
   margin: 0 5px;
 }
-.login {
+.login__wrapper {
   padding: 0 20px;
 }
 /* leftside bar */

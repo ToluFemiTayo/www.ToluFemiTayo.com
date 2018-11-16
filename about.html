@@ -62,29 +62,10 @@
           <input class="form-control" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-secondary" type="submit">Search</button>
         </form>
-        <div class="dropdown login">
-          <button class="btn btn-outline-secondary" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-            aria-expanded="false">
+        <div class="login__wrapper">
+          <button class="btn btn-outline-secondary" type="button" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">
             Login
           </button>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <form class="shadow-lg form__fill" autocomplete="on">
-              <div class="form-group">
-                <label for="exampleInputEmail1">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-              </div>
-              <div class="form-group">
-                <label for="exampleInputPassword1">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-              </div>
-              <div class="form-group form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Check me out</label>
-              </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
-          </div>
         </div>
       </div>
     </nav>
@@ -94,7 +75,7 @@
       <div class="sticky-top">
         <ul class="nav justify-content-center font-weight-bold text-uppercase">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="home.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="#">About</a>
@@ -120,11 +101,43 @@
           <div>
             <p class="text-justify font-weight-light">
               <img src="assets/img/IMG_20181115_061244.jpg" alt="profile image" class="abtus__img" /> I want to master the process of building web sites and increase my knowledge, skills and abilities through
-              my experiences in HTML, CSS, JavaScript, Bootstrap, REACT.
+              my experiences in respossive HTML and CSS, JavaScript, Bootstrap, Git, REACT.
               <br>
               <br>I'd like to work as a frontend enginner in a web design company and helping clients create an impressive online
               presence.
-              <br><br> More importantly, I'd love to create good, meaningful and lasting relationship with my clients.
+              <br>
+              <br> More importantly, I'd love to create good, meaningful and lasting relationship with my clients.
+            </p>
+          </div>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Open modal for @getbootstrap</button>
+
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog shadow-lg modal__login" role="document">
+              <div class="modal-content">
+                <div>
+                  <br>
+                  <h5 class="text-center text-monospace font-weight-bold">Login</h5>
+                </div>
+                <div class="modal-body">
+                  <form class="shadow-lg form__fill" autocomplete="on">
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                    <div class="form-group form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
       </section>
@@ -141,6 +154,35 @@
   <script src="assets/plugins/popper.min.js"></script>
   <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
   <script src="assets/js/main.js"></script>
+  <!-- modal here -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog shadow-lg modal__login" role="document">
+      <div class="modal-content">
+        <div>
+          <br>
+          <h5 class="text-center text-monospace font-weight-bold">Login</h5>
+        </div>
+        <div class="modal-body">
+          <form class="shadow-lg form__fill" autocomplete="on">
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>
