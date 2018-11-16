@@ -1,5 +1,15 @@
+main {
+  background: #eef3c9;
+  /* background: #d0d897; */
+}
+.profile__name {
+  color: #eef3c9;
+  font-family: 'Courier New', Courier, monospace;
+}
 .nav__two {
-  background-color: rgb(217, 226, 226);
+  background: #f4f8dd;
+  /* background: #f5f8e0; */
+  /* background-color: rgb(217, 226, 226); */
 }
 .p__right {
   padding: 0 60px 0 0;
@@ -27,7 +37,8 @@
 /* frontpage */
 .front__text {
   max-width: 450px;
-  color: #e1ec04;
+  color: #eef3c9;
+  /* color: #e1ec04; */
   font-family: 'Courier New', Courier, monospace;
   text-align: center;
   padding: 120px 60px 60px;
@@ -36,6 +47,12 @@
 .front__link {
   color:  rgb(174, 184, 184);
   text-decoration: none;
+}
+.link__here {
+  color:  rgb(174, 184, 184);
+}
+.link__here:hover {
+  color: rgb(202, 122, 31);
 }
 .sidebar {
   width: 90px;
@@ -68,7 +85,7 @@
   display: inline;
   width: 60px;
   height: 60px;
-  background-color: rgb(217, 226, 226);
+  background-color: #eef3c9;
   border: 2px solid #492828;
   border-radius: 50%;
   cursor: pointer;
@@ -134,7 +151,7 @@
   height: 100%;
 }
 .copyright {
-  color: rgb(153, 158, 158);
+  color: #eef3c9;
   text-align: center;
   padding: 20px;
   margin: 0;
@@ -147,7 +164,8 @@
   height: 200px;
   border: 2px solid #FFFFFF;
   border-radius: 20%;
-  padding: 0 20px 0 0;
+  padding: 0;
+  margin: 0 20px 0 0;
 }
 
 /* contact.html */
