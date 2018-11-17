@@ -1,6 +1,8 @@
 main {
   background: #eef3c9;
-  /* background: #d0d897; */
+}
+.container {
+  padding: 60px;
 }
 .profile__name {
   color: #eef3c9;
@@ -8,8 +10,6 @@ main {
 }
 .nav__two {
   background: #f4f8dd;
-  /* background: #f5f8e0; */
-  /* background-color: rgb(217, 226, 226); */
 }
 .p__right {
   padding: 0 60px 0 0;
@@ -26,9 +26,6 @@ main {
   padding: 20px; 
   margin: 0 auto;
 }
-.container {
-  padding: 60px;
-}
 .card__figure {
   width: 900px;
   height: 450px;
@@ -38,25 +35,25 @@ main {
   height: 100%;
 }
 
-/* frontpage */
+/* index.html */
+.bg__img {
+  /* height: 100px; */
+  margin: 0;
+}
 .front__text {
   max-width: 450px;
   color: #eef3c9;
-  /* color: #e1ec04; */
   font-family: 'Courier New', Courier, monospace;
   text-align: center;
   padding: 120px 60px 60px;
-  margin: 30px 0;
-}
-.front__link {
-  color:  rgb(174, 184, 184);
-  text-decoration: none;
+  margin: 0;
 }
 .link__here {
-  color:  rgb(174, 184, 184);
+  color: #aaaaa5;
+  text-decoration: none;
 }
 .link__here:hover {
-  color: rgb(202, 122, 31);
+  color: #f19307;
 }
 .sidebar {
   width: 90px;
@@ -84,65 +81,64 @@ main {
 }
 
 
-/* index.html */
-.rightside__card {
-  display: inline;
-  width: 60px;
-  height: 60px;
-  background-color: #eef3c9;
-  border: 2px solid #492828;
-  border-radius: 50%;
-  cursor: pointer;
-  padding: 2px;
-  margin: 0 5px;
-}
+/* home.html */
 .login__wrapper {
   padding: 0 20px;
+  margin: 0;
 }
-/* leftside bar */
+
+/* rightside icons */
+.rightside__card {
+  display: inline;
+  text-align: center;
+  background-color: #eef3c9;
+  border: 4px solid #f4f8dd;;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 5px;
+}
+.rightside__card a i {
+  width: 25px;
+  height: 25px;
+  font-size: 14px;
+  padding: 10px 7px;
+}
+
+/* leftside icons */
 .leftside__card {
   width: 35px;
   height: 35px;
   border: 2px solid #492828;
   border-radius: 5px;
   cursor: pointer;
-  margin: 10px;
+  margin: 10px 7px;
 }
-.mediaicons {
-  display: inline;
+.media__icons {
   list-style-type: none;
+  text-align: center;
   padding: 20px;
   margin: 0;
 }
+.leftside__card a i {
+  width: 25px;
+  height: 25px;
+  font-size: 14px;
+  padding: 10px 5px;
+}
 .twt {
-  width: 20px;
-  height: 10px;
   color: #60aade;
-  padding: 8px 5px 5px;
-  margin: 2px;
 }
 .fbk {
-  width: 20px;
-  height: 10px;
   color: #506bb1;
-  padding: 8px 5px 5px;
-  margin: 2px;
 }
 /* .ldn {
-  width: 20px;
-  height: 10px;
   color: #1b93ce;
-  padding: 8px 5px 5px;
-  margin: 2px;
 } */
 .gle {
-  width: 25px;
-  height: 10px;
   color: #e85441;
-  padding: 8px 5px 5px;
-  margin: 2px;
 }
-/* social icons */
+
+/* image showing different screens */
 .container figure {
   width: 100%;
 }
