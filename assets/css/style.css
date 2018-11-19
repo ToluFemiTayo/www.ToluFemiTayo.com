@@ -2,7 +2,7 @@ main {
   background: #eef3c9;
 }
 .pg__menu {
-  padding: 60px;
+  padding: 60px 0;
   margin: 0;
 }
 .stkyhd {
@@ -233,4 +233,20 @@ main {
   .sticky-top ul {
     padding: 60px 30px;
   }
+  .pg__mnu {
+    justify-content: right;
+    font-size: 12px !important;
+   }
+   .pg__title{
+     font-size: 18px !important;
+   }
+   .nav-link {
+     padding: 8px 10px !important;
+   }
+   .pg__mnu {
+     padding: 30px !important;
+   }
+   .pg__content,.pg__text, .p__left, .pleft {
+     padding: 0 !important;
+   }
 }
