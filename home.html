@@ -56,7 +56,7 @@
         aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="navbar-collapse collapse" id="navbarSupportedContent" style="">
+      <div class="navbar-collapse collapse" id="navbarSupportedContent">
         <div class="mr-auto"></div>
         <form class="form-inline" autocomplete="on">
           <input class="form-control" type="search" placeholder="Search" aria-label="Search">
@@ -73,33 +73,35 @@
   <main>
     <section class="container">
       <div class="sticky-top">
-        <ul class="nav justify-content-center font-weight-bold text-uppercase">
+        <ul class="nav justify-content-center font-weight-bold text-uppercase pg__menu pg__mnu">
           <li class="nav-item">
-            <a class="nav-link active" href="#">Home</a>
+            <a class="nav-link nav__link active" href="#">Home</a>
             <span class="sr-only">(current)</span>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link nav__link" href="about.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link nav__link" href="contact.html">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://tolufemitayo.github.io/Portfolio/">Portfolio</a>
+            <a class="nav-link nav__link" href="https://tolufemitayo.github.io/Portfolio/">Portfolio</a>
           </li>
           <!-- <li class="nav-item">
             <a class="nav-link" href="blog.html">Blog</a>
           </li> -->
         </ul>
       </div>
-      <div class="container">
-        <figure class="card__figure">
-          <!-- img: home page screenshot -->
-          <img class="card-img-top" src="assets/img/screens.PNG" alt="Card image cap">
-          <div class="card-body">
-            <p class="card-text">site viewed in large and small layouts.</p>
-          </div>
-        </figure>
+      <div class="container pg__content">
+        <div class="pg__text">
+          <figure class="card__figure">
+            <!-- img: home page screenshot -->
+            <img class="card-img-top" src="assets/img/screens.PNG" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">site viewed in large and small layouts.</p>
+            </div>
+          </figure>
+        </div>
       </div>
     </section>
 

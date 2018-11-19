@@ -1,8 +1,21 @@
 main {
   background: #eef3c9;
 }
-.container {
+.pg__menu {
   padding: 60px;
+  margin: 0;
+}
+.pg__content, .pg__title {
+  padding: 0 0 60px;
+  margin: 0;
+}
+.pg__text {
+  padding: 0 60px 60px;
+  margin: 0;
+}
+.txt {
+  text-align: justify;
+  padding: 0 120px;
 }
 .profile__name {
   color: #eef3c9;
@@ -16,6 +29,9 @@ main {
 }
 .p__left {
   padding: 0 0 0 60px;
+}
+.pleft {
+  padding: 0 0 0 155px;
 }
 .modal__login {
   max-width: 320px;
@@ -37,11 +53,15 @@ main {
 
 /* index.html */
 .bg__img {
-  /* height: 100px; */
+  height:624px;
   margin: 0;
+}
+.bg__img img {
+  height: 100%;
 }
 .front__text {
   max-width: 450px;
+  max-height: 100px;
   color: #eef3c9;
   font-family: 'Courier New', Courier, monospace;
   text-align: center;
@@ -160,12 +180,16 @@ main {
 /* about.html */
 .abtus__img {
   float: left; 
-  width: 220px; 
+  max-width: 220px; 
   height: 200px;
+  padding: 10px 20px 0 0;
+  margin: 0;
+}
+.abtus__img img {
+  width: 100%;
+  height: 100%;
   border: 2px solid #FFFFFF;
   border-radius: 20%;
-  padding: 0;
-  margin: 0 20px 0 0;
 }
 
 /* contact.html */
@@ -180,4 +204,35 @@ main {
 }
 .contact__three {
   padding: 20px 20px 0;
+}
+
+/* overwriting bootstrap */
+@media (min-width: 1200px) {
+  .card__figure img {
+      height: 400px;
+  }
+}
+@media (max-width: 450px) {
+  .card__figure img {
+      height: 250px;
+  }
+  .container {
+    padding: 30px;
+    margin: 0;
+  }
+  .pg__mnu {
+    font-size: 12px;
+  }
+  .pg__title{
+    font-size: 18px;
+  }
+  .nav-link {
+    padding: 8px 10px;
+  }
+  .pg__mnu {
+    padding: 30px;
+  }
+  .pg__content,.pg__text, .p__left, .pleft {
+    padding: 0;
+  }
 }
