@@ -46,6 +46,12 @@ main {
 .modal__login {
   max-width: 320px;
 }
+.form__txt {
+  color: #ee1212;
+}
+.note {
+  font-size: 12px;
+}
 .form__fill {
   background: #eef3c9;
   max-width: 300px;
