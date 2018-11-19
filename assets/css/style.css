@@ -233,6 +233,7 @@ main {
     margin: 0;
   }
   .pg__mnu {
+    justify-content: right;
     font-size: 12px !important;
   }
   .pg__title{
