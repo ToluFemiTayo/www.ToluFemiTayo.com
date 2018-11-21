@@ -272,7 +272,10 @@ main {
     margin: 0;
   }
   .menu__link {
-    font-size: 16px;
+    font-size: 12px;
+  }
+  .nav-link {
+    padding: 10px 6px;
   }
   .pg__mnu {
     /* text-align: */
