@@ -80,7 +80,7 @@
         <section>
           <div class="container text-center">
             <h4>Welcome, Clients</h4>
-            <p>A Simple way to collaborate with my clients</p>
+            <p>A simple way to collaborate with my clients</p>
             <div class="login__wrapper">
               <a href="hireme.html">
                 <button class="btn btn-outline-secondary" type="button" data-toggle="tooltip" data-placement="bottom" title="Hire Me">
@@ -104,8 +104,7 @@
       <div class="sticky-top">
         <ul class="nav justify-content-center font-weight-bold text-uppercase stkyhd pg__menu pg__mnu">
           <li class="nav-item">
-            <a class="nav-link menu__link active" href="#">Home</a>
-            <span class="sr-only">(current)</span>
+            <a class="nav-link menu__link" href="home.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link menu__link" href="about.html">About</a>
@@ -121,19 +120,110 @@
           </li> -->
         </ul>
       </div>
-      <div class="container pg__content">
-        <div class="pg__text">
-          <figure class="card__figure">
-            <!-- img: home page screenshot -->
-            <img class="card-img-top" src="assets/img/screens.PNG" alt="Card image cap">
-            <div class="card-body">
-              <p class="card-text">site viewed in large and small layouts.</p>
-            </div>
-          </figure>
-        </div>
-      </div>
-    </section>
 
+      <section class="container">
+        <!-- heading here -->
+        <div>
+          <h3 class="text-center text-monospace font-weight-bold pg__title">Hire Me</h3>
+        </div>
+        <section class="container pg__content">
+          <div class="pg__content">
+            <h6 class="pgh__text">You are welcome.</h6>
+            <br>
+            <p class="text-justify">Get started with me by filling the form below. To learn about how I work and the value I can bring to your project,
+              please visit
+              <a href="about.html" class="hire__linktxt link__here">About</a>.
+              <!-- to see what I’ve produced for other clients, -->
+            </p>
+            <p class="text-justify">General messages may be sent via the
+              <a href="contact.html" class="hire__linktxt link__here">Contact Form</a>.
+            </p>
+          </div>
+          <div class="pg__text">
+            <form action="javascript:alert( 'successful! Your request is being processed.' );">
+              <div class="row">
+                <div class="col-sm coln">
+                  <h4 class="pgh__text">About You</h4>
+                  <br>
+                  <p class="font-weight-bold">Your name
+                    <br>
+                    <input type="text" name="name" class="form-control input__size" placeholder="eg. Omodara Tolulope">
+                    <small class="d-none form__text">Please, fill this place.</small>
+                  </p>
+                  <p class="font-weight-bold">Email address
+                    <br>
+                    <input type="email" name="email" class="form-control input__size" placeholder="eg. omodarafemi2123@gmail.com">
+                    <small class="d-none form__text">Your email is not correct.</small>
+                  </p>
+                  <p class="font-weight-bold">Contact method
+                    <p></p>
+                    <span class="nte">
+                      number or Skype/Google Hangouts username
+                    </span>
+                    <br>
+                    <input type="text" name="contact" class="form-control input__size" placeholder="eg. +2347033703857">
+                  </p>
+                  <p class="font-weight-bold">Your website
+                    <br>
+                    <input type="text" name="website" class="form-control input__size" placeholder="eg. example.co.org">
+                  </p>
+                  <p class="font-weight-bold">How did you hear about me?
+                    <br>
+                    <input type="text" name="hear" class="form-control input__size" placeholder="eg. Google, Twitter, referred by..., etc">
+                  </p>
+                </div>
+                <div class="col-sm coln">
+                  <div>
+                    <h4 class="pgh__text">Project Details</h4>
+                    <span class="nte">Specify a budget and ideal completion date (when you're aiming for the website to go live or to have
+                      the frontend files ready for backend integration for example). This helps me determine the best solution
+                      within your given circumstances.
+                      <p></p>
+                    </span>
+                    <p class="font-weight-bold">Your Budget
+                      <br>
+                      <input type="text" name="budget" class="form-control input__size" placeholder="eg. £2000">
+                    </p>
+                    <p class="font-weight-bold">Your ideal completion from the start date
+                      <select name="timeline" class="form-control select" aria-invalid="false">
+                        <option value="Please select">Please select</option>
+                        <option value="As soon as possible">As soon as possible</option>
+                        <option value="In 1 month">In 1 month</option>
+                        <option value="In 2 months">In 2 months</option>
+                        <option value="In 3 months">In 3 months</option>
+                        <option value="In 4 months or more">In 4 months or more</option>
+                        <option value="Not sure/To be determined">Not sure/To be determined</option>
+                      </select>
+                    </p>
+                  </div>
+                  <h4 class="pgh__text">Project Description
+                  </h4>
+                  <span class="nte">
+                    briefly describe your project, what you aim to achieve, what you'd like me to do, and link to any appropriate materials.
+                  </span>
+                  <textarea name="description" class="form-control txtarea" placeholder="Please briefly describe your project"></textarea>
+                  <small class="d-none">Please, fill this place.</small>
+                </div>
+              </div>
+              <div class="wrap">
+                <p class="text-justify">
+                  <input type="checkbox" name="opt-in" value="1" checked=""> Send me news, updates, and offers from Omodara Tolulope in the future</label>
+                  <br>
+                  <small>
+                    I promise to keep your details private and send emails only very occasionally. You may unsubscribe at any time.
+                  </small>
+                </p>
+                <div class="button">
+                  <button class="btn btn-outline-secondary" type="submit">
+                    <span class="send__btn">Send</span>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </section>
+      </section>
+    </section>
   </main>
   <footer>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-center">
