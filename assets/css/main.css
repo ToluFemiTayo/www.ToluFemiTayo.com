@@ -271,21 +271,15 @@ main {
     padding: 30px;
     margin: 0;
   }
-  .sticky-top ul {
-    padding: 60px 30px;
+  .menu__link {
+    font-size: 16px;
   }
   .pg__mnu {
-    justify-content: right;
-    font-size: 12px !important;
+    /* text-align: */
+    font-size: 10px !important;
    }
    .pg__title{
      font-size: 18px !important;
-   }
-   .nav-link {
-     padding: 8px 10px !important;
-   }
-   .pg__mnu {
-     padding: 30px !important;
    }
    .pg__content,.pg__text, .p__left, .pleft {
      padding: 0 !important;
