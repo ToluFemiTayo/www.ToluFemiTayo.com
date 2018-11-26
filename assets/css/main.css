@@ -188,8 +188,8 @@ main {
   margin: 0;
 }
 .card__figure {
-  width: 900px;
-  height: 450px;
+  max-width: 900px;
+  max-height: 450px;
 }
 .card__figure img {
   width: 100%;
@@ -263,13 +263,18 @@ main {
 
 /* overwriting bootstrap */
 @media (min-width: 1200px) {
-  .card__figure img {
-      height: 400px;
+  .carousel-item img {
+    height: 400px;
   }
 }
 @media (max-width: 450px) {
-  .card__figure img {
-      height: 250px;
+  .carousel-item img {
+    height: 250px;
+  }
+  .carousel__captn {
+    font-size: 8px;
+    width: 150px;
+    height: 70px;
   }
   .container {
     padding: 30px;
