@@ -236,8 +236,11 @@ main {
 }
 
 /* hire form */
-.hire__linktxt, .send__btn  {
+.hire__linktxt {
   color: #0fee7e;
+}
+.send__btn  {
+  color: #ee610f;
 }
 .coln {
   padding: 0 60px 60px;
