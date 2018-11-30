@@ -160,7 +160,9 @@ main {
   padding: 20px; 
   margin: 0 auto;
 }
-
+.clients__text {
+  color: #862929;
+}
 
 /* main menus */
 .pg__menu {
@@ -178,7 +180,7 @@ main {
   letter-spacing: 2px;
 }
 .menu__link:hover {
-  color: #0fee7e;
+  color: #862929;
 }
 
 
@@ -198,7 +200,7 @@ main {
 .carousel__captn {
   max-width: 400px;
   height: 100px;
-  color: #ee610f;
+  color: #862929;
   font-family: 'Courier New', Courier, monospace;
   font-size: 18px;
   padding: 30px 0 0;
@@ -237,7 +239,7 @@ main {
 
 /* hire form */
 .hire__linktxt {
-  color: #0fee7e;
+  color: #862929;
 }
 .send__btn  {
   color: #ee610f;
